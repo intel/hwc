@@ -40,7 +40,7 @@ Clone the Hardware Composer for Android* OS into the generic AOSP source tree.
 
 git clone https://github.com/intel/hwc.git hardware/intel/hwc
 
-cd hardware/intel/hwc
+cd hardware/intel/hwc/build
 
 mm
 
