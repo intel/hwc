@@ -718,7 +718,7 @@ void PhysicalDisplayManager::IdleTimeout::resetIdleTimer()
         --mFramesToExitIdle;
     }
 
-    // Set-up a timer to timeout if we recieve no updates in a while.
+    // Set-up a timer to timeout if we receive no updates in a while.
     mIdleTimer.set((mFramesToExitIdle) ? mOptionIdleTimein : mOptionIdleTimeout);
 }
 
